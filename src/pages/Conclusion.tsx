@@ -4,7 +4,7 @@ import img1 from '../assets/sticker8.webp';
 import img2 from '../assets/sticker9.webp';
 import img3 from '../assets/sticker10.webp';
 
-const Love = () => {
+const Conclusion = () => {
     const navigate = useNavigate();
 
     const nextStep = () => {
@@ -18,11 +18,9 @@ const Love = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0 }}
             >
-                <div style={{ fontSize: '30px' }}>Кохай та будь кохана!</div>
+                <div style={{ fontSize: '30px' }}>Впевнена!</div>
                 <div style={{ fontSize: '15px', marginTop: '10px' }}>
-                    Бажаю тобі побудувати свою конфортну та теплу сім'ю. Нехай
-                    люди, які тебе оточують роблять тебе лише щасливою та
-                    допомагають в здійсненні твоїх мрій та бажань!
+                    татата
                 </div>
                 <div className="images">
                     <img src={img1} />
@@ -41,4 +39,4 @@ const Love = () => {
     );
 };
 
-export default Love;
+export default Conclusion;

@@ -5,6 +5,8 @@ import StepFirst from './pages/StepFirst';
 import StepSecond from './pages/StepSecond';
 import StepThird from './pages/StepThird';
 import Love from './pages/LoveStep';
+import Career from './pages/CareerStep';
+import Conclusion from './pages/Conclusion';
 
 const App = () => {
     return (
@@ -24,7 +26,8 @@ const App = () => {
                     <Route path="/stepSecond" element={<StepSecond />} />
                     <Route path="/stepThird" element={<StepThird />} />
                     <Route path="/love" element={<Love />} />
-                    <Route path="/career" element={<Love />} />
+                    <Route path="/career" element={<Career />} />
+                    <Route path="/conclusion" element={<Conclusion />} />
                 </Routes>
             </Router>
         </div>
