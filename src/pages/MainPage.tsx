@@ -5,7 +5,6 @@ import number1 from '../assets/number-1.svg';
 import number2 from '../assets/number-2.svg';
 import smile from '../assets/smile.png';
 import yuliia from '../assets/sticker.webp';
-import yuliia1 from '../assets/sticker1.webp';
 import './styles.scss';
 
 const Main = () => {
@@ -23,17 +22,11 @@ const Main = () => {
     }, []);
 
     const handleNextStep = () => {
-        navigate('/stepSecond');
+        navigate('/stepFirst');
     };
 
     return (
         <div className="container flex">
-            <motion.img
-                src={yuliia1}
-                initial={{ x: '-100vw', opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ type: 'spring', stiffness: 100, damping: 10 }}
-            />
             <div className="introduce">
                 <motion.div
                     className="numbers"
@@ -51,12 +44,12 @@ const Main = () => {
                         <img src={imgSrc} width={'100px'} />
                     )}
                 </motion.div>
-
                 <motion.button
                     onClick={handleNextStep}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                     className="submit"
+                    style={{ width: '50%' }}
                 >
                     Let's go!
                 </motion.button>

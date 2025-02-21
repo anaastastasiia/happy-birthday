@@ -5,6 +5,9 @@ body {
         rgba(0, 20, 36, 0.7777777777777778) 0%,
         rgba(0, 212, 255, 1) 100%
     );
+    margin: 0;
+    padding: 0;
+    font-family: 'Bona_Nova_SC', sans-serif;
 }
 
 html,
@@ -21,6 +24,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
@@ -29,10 +34,6 @@ body {
         format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-body {
-    font-family: 'Bona_Nova_SC', sans-serif;
 }
 
 .appContainer {
