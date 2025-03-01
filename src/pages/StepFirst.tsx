@@ -49,8 +49,9 @@ const StepFirst = () => {
                                 <img src={aperol} />
                                 <img src={glasses} />
                             </div>
-                            <div style={{ fontSize: '30px' }}>
-                                Тобі вже не 21, але ще й не 30
+                            <div>
+                                <div style={{ fontSize: '30px' }}>Тобі вже не 21, але ще й не 30</div>
+                                <div>Бажаю щоб спина не боліла та ноги не крутили</div>
                             </div>
                             <img src={yuliia1} height={'100%'} />
                         </div>
