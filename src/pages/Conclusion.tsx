@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import video from '../assets/IMG_9783.mp4';
 
 const Conclusion = () => {
     return (
@@ -9,7 +8,12 @@ const Conclusion = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0 }}
             >
-                <video src={video} width="750" height="300" controls></video>
+                <iframe
+                    src="https://drive.google.com/file/d/1gRFUEirv_MzkWtwECiA6Oiz5dg5-FwL7/preview"
+                    width="700"
+                    height="400"
+                    allow="autoplay"
+                ></iframe>
             </motion.div>
         </div>
     );
